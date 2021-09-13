@@ -1,0 +1,20 @@
+{
+  "name": "UI",
+  "version": "1.0.0",
+  "description": "90Pixel's UI Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/90pixel/UI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/90pixel/UI/issues"
+  },
+  "homepage": "https://github.com/90pixel/UI#readme"
+}
