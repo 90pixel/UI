@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -15,10 +16,12 @@
   "bugs": {
     "url": "https://github.com/90pixel/UI.issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/preset-typescript": "^7.15.0"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack",
+    "build": "tsc && webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
