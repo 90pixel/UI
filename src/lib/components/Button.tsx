@@ -1,5 +1,7 @@
+import React from "react";
+
 function Button() {
-  return <button>Bu deneme butonu</button>;
+  return <div>Burak</div>;
 }
 
 export default Button;
