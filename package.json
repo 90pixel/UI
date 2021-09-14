@@ -16,9 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/90pixel/UI.git"
   },
-  "publishConfig": {
-    "registry": "https://github.com/90pixel/UI"
-  },
   "bugs": {
     "url": "https://github.com/90pixel/UI.issues"
   },
