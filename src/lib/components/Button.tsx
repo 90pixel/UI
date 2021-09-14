@@ -1,7 +1,9 @@
 import React from "react";
-
-function Button() {
-  return <div>Burak</div>;
+interface ButtonInterface {
+  title: string;
 }
+const Button: React.FC<ButtonInterface> = ({ title }) => {
+  return <div>{title}</div>;
+};
 
 export default Button;
