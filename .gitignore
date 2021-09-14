@@ -1,5 +1,5 @@
-# dependencies
-/node_modules
-/dist
-src/react-app-env.d.ts
+*.log
 .DS_Store
+node_modules
+.cache
+dist
